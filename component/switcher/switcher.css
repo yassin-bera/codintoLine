@@ -1,0 +1,32 @@
+.change{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.change__title{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: iransansweb;
+    color: var(--textColor);
+}
+.change__action{
+    width: 8vh;
+    height: 4vh;
+    background-color: var(--textColor);
+    border-radius: 15px;
+    position: relative;
+    padding: 2px 2px;    
+    display: flex;
+    align-items: center;
+}
+.change__icon{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: var(--white);
+    right: 4px;
+}

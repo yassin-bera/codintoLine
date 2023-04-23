@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x : hidden;
+}
+html { font-size: 62.5%; }
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* font------------------------------------------------------ */
+@font-face {
+    font-family: iransansbold;
+    src: url(../font/IRANSans-Bold-web.woff2);
+}
+@font-face {
+    font-family: iransanslight;
+    src: url(../font/IRANSans-Light-web.woff2);
+}
+@font-face {
+    font-family: iransansmedium;
+    src: url(../font/IRANSans-Medium-web.woff2);
+}
+@font-face {
+    font-family: iransansweb;
+    src: url(../font/IRANSans-web.woff2);
+}
+/* ///////////////////////////////////////////////////////////////// */
+/* color ----------------------------------------------------------- */
+:root {
+    --mainBackground: #F6F6F6;
+    --white : #FFFFFF;
+    --textColor : #5360ED;
+    --boxColor : #F6F7FF;
+    --boxHeader : #EEF1FF;
+}
