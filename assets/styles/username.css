@@ -1,0 +1,233 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--mainBackground);
+}
+.right__container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__image{
+    width: 50rem;
+    height: 50rem;
+}
+.left__container{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+h1{
+    font-size: 35px;
+    color: var(--textColor);
+    font-family: iransansweb;
+    font-weight: 300;
+}
+h1 span{
+    font-size: 35px;
+    color: var(--textColor);
+    font-family: iransansweb;
+    font-weight: 900;
+}
+.input__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    row-gap: 5rem;
+    margin-top: 7.5rem;
+}
+.username{
+  width: 37rem;
+  height: 3rem;
+  padding: 0px 0rem 1rem 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--textColor);
+  background-color: var(--mainBackground);
+}
+.username::placeholder{
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: iransansweb;
+}
+.password{
+    width: 37rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--textColor);
+    background-color: var(--mainBackground);
+    padding: 0px 0rem 1rem 0;
+}
+.password::placeholder{
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: iransansweb;
+}
+.entry__btn{
+    width: 37rem;
+    height: 3.6rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--textColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: var(--white);
+    font-family: iransansweb;
+    font-size: 15px;
+    font-weight: 300;
+}
+.submit__box{
+    width: 37rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.forget__pass{
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--textColor);
+    font-family: iransansweb;
+}
+.submit__btn{
+    outline: none;
+    border: none;
+    border: 1px solid var(--textColor);
+    width: 12rem;
+    height: 3.6rem;
+    background-color: var(--mainBackground);
+    border-radius: 15px;
+    color: var(--textColor);
+    font-size: 18px;
+    font-family: iransansweb;
+    font-weight: 300;
+
+}
+/* responsive ------------------------------ */
+@media only screen and (min-width: 250px) and (max-width: 450px)  {
+    .login__image{
+        display: none;
+    }
+    .left__container{
+        width: 100%;
+        padding: 0 1rem 0 1rem;
+    }
+    .right__container{
+        width: 0;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+    h1 span{
+        font-size: 20px;
+    }
+    .input__container{
+        width: 100%;
+    }
+    .username{
+        width: 92%;
+    }
+    .password{
+        width: 92%;
+    }
+    .entry__btn{
+        width: 92%;
+    }
+    .submit__box{
+        width: 92%;
+    }
+    .submit__btn{
+        width: 9rem;
+        height: 2.5rem;
+        font-size: 12px;
+    }
+    
+}
+@media only screen and (min-width: 451px) and (max-width: 680px)  {
+    .login__image{
+        display: none;
+    }
+    .left__container{
+        width: 100%;
+        padding: 0 1rem 0 1rem;
+    }
+    .right__container{
+        width: 0;
+    }
+    
+    h1{
+        font-size: 24px;
+    }
+    h1 span{
+        font-size: 24px;
+    }
+    .input__container{
+        width: 100%;
+    }
+    .username{
+        width: 90%;
+    }
+    .password{
+        width: 90%;
+    }
+    .entry__btn{
+        width: 90%;
+    }
+    .submit__box{
+        width: 90%;
+    }
+    .submit__btn{
+        width: 11rem;
+        height: 3rem;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 681px) and (max-width: 950px)  {
+    .login__image{
+        width: 35rem;
+        height: 35rem;
+    }
+    .left__container{
+        width: 60%;
+    }
+    .right__container{
+        width: 40%;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h1 span{
+        font-size: 24px;
+    }
+    .input__container{
+        width: 100%;
+    }
+    .username{
+        width: 85%;
+    }
+    .password{
+        width: 85%;
+    }
+    .entry__btn{
+        width: 85%;
+    }
+    .submit__box{
+        width: 85%;
+    }
+}
