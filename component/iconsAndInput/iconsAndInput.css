@@ -1,0 +1,66 @@
+.icons__delete__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+.section__icon{
+ width: 20px;
+ height: 20px;
+}
+.part__divider{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+.right__section{
+width: 55%;
+position: relative;
+display: flex;
+align-items: center;
+}
+.left__section{
+display: flex;
+align-items: center;
+justify-content: space-between;
+column-gap: 0.5rem;
+} 
+.icon__layout{
+ width: 3rem;
+ height: 3rem;
+ border: 1px solid var(--textColor);
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.input__box{
+ width: 2.7rem;
+ height: 3rem;
+ background-color: var(--boxHeader);
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ z-index: 3;
+}
+.entry__input{
+ width: 20rem;
+ height: 2.98rem;
+ background-color: var(--boxColor);
+ border-radius: 10px;
+ outline: none;
+ border: none;
+ position: absolute;
+ right: 1rem;
+ z-index: 1;
+ padding-right: 2rem;
+}
+.box__number{
+ font-size: 15px;
+ font-weight: 600;
+ font-family: iransansweb;
+ color: var(--textColor);
+}

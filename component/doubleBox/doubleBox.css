@@ -70,4 +70,8 @@
     text-align: center;
     position: absolute;
     top: 5px;
+    opacity: 0.1;
+}
+.text__box::-webkit-input-placeholder {
+    opacity: 0.1; /*Change the opacity between 0 and 1*/
 }

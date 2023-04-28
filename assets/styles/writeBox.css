@@ -1,0 +1,199 @@
+body{
+    width: 100%;
+    height: 90vh;
+    background-color: var(--mainBackground);
+}
+.header{
+    width: 100%;
+    height: 6rem;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__text{
+    font-size: 20px;
+    color: var(--textColor);
+    font-weight: 600;
+    font-family: iransansweb;
+}
+.main__content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content__container{
+    width: 45.3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.column__flex{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+.qestion__container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 2px;
+}
+.question__text__style{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: iransansweb;
+    color: var(--textColor);
+}
+.sub__question__container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 2rem;
+}
+
+.sub__question{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: iransansweb;
+    color: var(--textColor);
+}
+.input{
+    width: 45.3rem;
+    height: 11.8rem;
+    outline: none;
+    border: 1px solid var(--textColor);
+    border-radius: 20px;
+    background-color: var(--mainBackground);
+    margin-top: 2.5rem;
+}
+.btns__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 2rem;
+    column-gap: 2rem;
+}
+.prev__btn{
+    width: 10rem;
+    height: 3.6rem;
+    outline: none;
+    border: 1px solid var(--textColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainBackground);
+    color: var(--textColor);
+    font-family: iransansweb;
+    font-weight: 300;
+    border-radius: 40px;
+    font-size: 15px;
+}
+.next__btn{
+    width: 10rem;
+    height: 3.6rem;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--textColor);
+    color: var(--white);
+    font-family: iransansweb;
+    font-weight: 300;
+    border-radius: 40px;
+    font-size: 15px;
+}
+/* responsive ------------------------------ */
+@media only screen and (max-width: 330px)  {
+    .content__container{
+        width: 97%;
+    }
+    .input{
+        width: 94%;
+    }
+    .qestion__container{
+        justify-content: center;
+    }
+    .question__text__style{
+       font-size: 10px;
+    }
+    .sub__question__container{
+        width: 100%;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .sub__question{
+        font-size: 10px;
+    }
+    .btns__container{
+        justify-content: center;
+    }
+    .prev__btn{
+        width: 8rem;
+        height: 3rem ;
+        font-size: 12px;
+    }
+    .next__btn{
+        width: 8rem;
+        height: 3rem ;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 330.5px) and (max-width: 580px)  {
+    .content__container{
+        width: 97%;
+    }
+    .input{
+        width: 85%;
+    }
+    .qestion__container{
+        justify-content: center;
+    }
+    .question__text__style{
+       font-size: 12px;
+    }
+    .sub__question__container{
+        width: 100%;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .sub__question{
+        font-size: 12px;
+    }
+    .btns__container{
+        justify-content: center;
+    }
+    .prev__btn{
+        width: 8rem;
+        height: 3rem ;
+        font-size: 12px;
+    }
+    .next__btn{
+        width: 8rem;
+        height: 3rem ;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 580.5px) and (max-width: 950px)  {
+    .question__text__style{
+        font-size: 18px;
+    }
+    .sub__question{
+        font-size: 18px;
+    }
+    .input{
+        width: 100%;
+    }
+}
