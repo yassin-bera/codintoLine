@@ -1,0 +1,42 @@
+.range__teyfi__container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.teyfi__box{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--boxHeader);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teyfi__number{
+    font-size: 12px;
+    font-family: iransansweb;
+    font-weight: 600;
+    color: var(--textColor);
+}
+.range__line{
+    width: 85%;
+    display: flex;
+}
+.vertical__place{
+    width: 0.8rem;
+    height: 2rem;
+    background-color: var(--boxHeader);
+    border-radius: 5px;
+}
+.horizental__place__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+}
+.horizental__place{
+    width: 2rem;
+    height: 0.8rem;
+    background-color: var(--boxHeader);
+}

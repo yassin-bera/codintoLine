@@ -14,6 +14,9 @@ body{
     overflow-y:scroll;
     overflow-x: hidden;
     /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .main__part{
     display: flex;
@@ -73,6 +76,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: 0 auto;
 
 }
 .items{
@@ -240,6 +244,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .circle__icon{
     width: 4.8rem;
@@ -255,6 +260,13 @@ body{
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    /* visibility: hidden; */
+    transition: all 0.2s;
+    opacity: 0;
+}
+.active{
+    /* visibility: visible; */
+    opacity: 1;
 }
 .option__icon{
     width: 24px;
@@ -266,6 +278,17 @@ body{
     color: var(--textColor);
     font-family: iransansweb;
 }
+.welcome:hover,.matni__rospons:hover,.matni__none__respons:hover,.many__option:hover,.group__question:hover{
+    background-color: rgb(83, 96, 237 , 0.2)
+}
+
+.number:hover,.range:hover,.email:hover,.degree:hover,.degree:hover,.link:hover,.order:hover,.upload:hover,.tanks:hover,.dorwer__list:hover{
+   background-color: rgb(83, 96, 237 , 0.2)
+}
+
+
+
+
 /* responsive ---------------------- */
 @media only screen and (max-width: 350px)  {
     .left__container{
@@ -504,14 +527,14 @@ body{
         padding-right: 2rem;
      }
      .drop__down__row{
-        width: 35rem;
+        width: 70rem;
      }
      .drop__down__row2{
-        width: 30rem;
+        width: 65rem;
      }
      .items__container{
         width: 80%;
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
         display: flex;
         justify-content: center;
         height: 100%;

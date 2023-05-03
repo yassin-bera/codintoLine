@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../../assets/styles/global.css">
-    <link rel="stylesheet" href="../../assets/styles/textWith.css">
+    <link rel="stylesheet" href="../../assets/styles/numberPage.css">
 </head>
 <body dir="rtl">
     <div class="right__container">
@@ -14,8 +14,8 @@
             <h1>کدینتولاین</h1>
             <div class="line"></div>
             <div class="subHeader">
-                <a href="../questionnaire.html"><img src="../../assets/images/cancel.png" class="header__icon"></a>
-                <span class="subHeader__text">متنی با پاسخ</span>
+                <img src="../../assets/images/cancel.png" class="header__icon">
+                <span class="subHeader__text">عدد</span>
                  <div></div>
             </div>
         </section>
@@ -49,16 +49,11 @@
                 </div>
                 <input type="text" class="text__box" placeholder="توضیحات خود را بنویسید"/>
             </section>
-            <section class="min__container">
-                <span class="ansswer__input__label">الگوی پاسخ</span>
-                <div class="ansswer__container">
-                    <input type="text"  class="ansswer__input" placeholder="کاراکتر عددی"/>
-                    <img src="../../assets/images/down arrow.png" alt="" class="ansswer__icon">
-                </div>
-                <div class="null"></div>
+            <section class="box__title__container">
+                <span class="box__title">محدودیت عدد وارد شده</span>
             </section>
             <section class="box__title__container">
-                <span class="box__title">محدودیت تعداد حروف پاسخ</span>
+                <span class="box__title">تعداد گزینه های قابل انتخاب</span>
             </section>
             <section class="min__container">
                 <span class="min__input__label">حداقل</span>
@@ -70,38 +65,22 @@
                 <input type="text"  class="min__input" placeholder="2"/>
                 <div class="null"></div>
             </section>
-            <section class="min__container">
-                <span class="ansswer__input__label">نمونه پاسخ</span>
-                <div class="ansswer__container">
-                    <input type="text"  class="ansswer__input__instans" placeholder="101042"/>
-                    <!-- <img src="../../assets/images/down arrow.png" alt="" class="ansswer__icon"> -->
+        <section class="change">
+            <span class="change__title">عکس یا فیلم</span>
+            <div class="change__action">
+                <div class="change__icon"></div>
+            </div>
+        </section>
+        <section class="switch__container">
+            <div class="switch">
+                <div class="switch__item">
+                    <span class="switch__text">فیلم</span>
                 </div>
-                <div class="null"></div>
-            </section>
-            <section class="min__container">
-                <span class="ansswer__input__label">پیام اعتبارسنجی</span>
-                <div class="ansswer__container">
-                    <input type="text"  class="ansswer__input__instans" placeholder="فقط کاراکترهای عددی استفاده کنید"/>
-                    <!-- <img src="../../assets/images/down arrow.png" alt="" class="ansswer__icon"> -->
+                <div class="switch__item2">
+                    <span class="switch__text">عکس</span>
                 </div>
-                <div class="null"></div>
-            </section>    
-             <section class="change">
-                <span class="change__title">عکس یا فیلم</span>
-                <div class="change__action">
-                    <div class="change__icon"></div>
-                </div>
-           </section>  
-            <section class="switch__container">
-                <div class="switch">
-                    <div class="switch__item">
-                        <span class="switch__text">فیلم</span>
-                    </div>
-                    <div class="switch__item2">
-                        <span class="switch__text">عکس</span>
-                    </div>
-                </div>
-           </section>
+            </div>
+        </section>
         <section class="box">
             <div class="box__header flex">
                 <span class="box__header__text">حداکثر حجم 3 مگابایت</span>
@@ -110,12 +89,31 @@
                 <img src="../../assets/images/upload (2).png" alt="text" class="text__icon">
             </div>
         </section>
-        <section class="change">
+       <section class="change">
             <span class="change__title">پاسخ به سوال اجباری باشد</span>
             <div class="change__action">
                 <div class="change__icon"></div>
             </div>
         </section>
+        <section class="change">
+            <span class="change__title">عدم نمایش شماره سوال</span>
+            <div class="change__action">
+                <div class="change__icon"></div>
+            </div>
+        </section>
+        <section class="change">
+            <span class="change__title">عدد اعشاری مجاز باشد</span>
+            <div class="change__action">
+                <div class="change__icon"></div>
+            </div>
+        </section>
+        <section class="change">
+            <span class="change__title">عدد منفی مجاز باشد</span>
+            <div class="change__action">
+                <div class="change__icon"></div>
+            </div>
+        </section>
+    
         </article>
         <section class="bottom__btns">
             <button class="refuse">انصراف</button>
@@ -129,21 +127,16 @@
                     <div class="qestion__container">
                            <span class="question__text__style">1</span>
                            <span class="question__text__style">-</span>
-                           <span class="question__text__style">اقدامات امیر کبیر را به طور خلاصه توضیح دهید</span>
+                           <span class="question__text__style">امیر کبیر چند سال عمر کرد؟</span>
                      </div>
                      <div class="sub__question__container">
-                         <span class="sub__question">نوشتن چهار مورد کفایت می کند</span>
+                         <span class="sub__question">از نوشتن جواب های ضافی بپرهیزید</span>
                      </div>
                 </div>
                 <div class="selection">
                        <div class="selection__box">
-                             <!-- <span class="seletion__item">اقدام شماره 1</span>
-                             <span class="seletion__item">اقدام شماره 2</span>
-                             <span class="seletion__item">اقدام شماره 3</span>
-                             <span class="seletion__item">اقدام شماره 4</span>
-                             <span class="seletion__item">اقدام شماره 5</span> -->
                        </div>
-                       <!-- <img src="../../assets/images/up  arrow.png" alt="" class="arrow__icon"> -->
+                
                 </div>    
        </section>
             <section class="circle__container">

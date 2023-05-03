@@ -58,6 +58,7 @@ h1{
 .header__icon{
     width: 24px;
     height: 24px;
+    margin-right: 0.5rem;
 }
 .main__container{
     margin-top: 3rem;
@@ -230,7 +231,7 @@ h1{
 
 }
 .text__box::placeholder{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
     color: var(--textColor);
     font-family: iransansweb;
